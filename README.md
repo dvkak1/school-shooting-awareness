@@ -1,6 +1,30 @@
-# school-shooting-awareness
+# School Shooting Awareness
 
-This template should help get you started developing with Vue 3 in Vite.
+A research-driven single-page application focused on raising awareness about school violence in the Philippines.
+
+The project examines documented incidents, contributing factors, and related research while encouraging evidence-based discussion and responsible public awareness. It is designed to distinguish verified information from speculation and avoid
+sensationalizing incidents involving school violence.
+
+## Project Goals
+
+- Present research on school violence in the Philippines in an accessible format
+- Provide context surrounding documented incidents and contributing factors
+- Encourage evidence-based discussion rather than speculation 
+- Provide safety and preparedness information from appropriate sources
+- Organize relevant resources for further reading and research
+- Demonstrate responsible UX and information presentation for a sensitive subject.
+
+## Tech Stack
+- Vue 3
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap 5
+
+## Project Status 
+
+Project currently under development
 
 ## Recommended IDE Setup
 
