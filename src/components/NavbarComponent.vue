@@ -10,18 +10,21 @@
                     <a href="#landing" class="nav-link" id="home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link" id="incidents">Incidents</a>
+                    <a href="#research" class="nav-link" id="nav-research">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#incidents" class="nav-link" id="incidents">Incidents</a>
                 </li>
             </ul>
             <ul class="navbar-nav ps-0 me-auto text-center text-md-start">
                 <li class="nav-item">
-                    <a href="#tools" class="nav-link" id="safe-guide">Safety Guides</a>
+                    <a href="#safety-guides" class="nav-link" id="safe-guide">Safety Guides</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#tools" class="nav-link" id="resources">Resources</a>
+                    <a href="#resources" class="nav-link" id="resources">Resources</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link" id="cntct">About</a>
+                    <a href="#about" class="nav-link" id="cntct">About</a>
                 </li>
             </ul>
         </div>

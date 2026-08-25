@@ -76,6 +76,7 @@
   color: #FFFFFF;
 }
 
+/* Hero section code starts here */
 #landing{
   background: 
     linear-gradient(
@@ -165,6 +166,83 @@
   background: var(--color-accent-dark);
 }
 
+/* Hero section code ends here */
+
+/* Research Overview code starts here */
+#research {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+#research-eyebrow {
+  margin-bottom: 12px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: var(--color-ascent);
+}
+
+#research-title {
+  margin-bottom: 20px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.15;
+
+  color: var(--color-dark);
+}
+
+#research-description {
+  margin: 0 auto;
+
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+
+  color: #55514C;
+}
+
+#research-card {
+  padding: 32px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #DDD9D3;
+  border-radius: 12px;
+
+  transition: 
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(23, 23, 23, 0.08);
+}
+
+.research-card h3 {
+  margin-bottom: 16px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+
+  color: var(--color-dark);
+}
+
+
+.research-card p {
+  margin: 0;
+
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+
+  color: #55514C;
+}
 
 #projects, #tools {
   background-color: #1E1E1D;
