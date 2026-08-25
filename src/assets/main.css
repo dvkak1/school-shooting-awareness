@@ -1,0 +1,297 @@
+@import './base.css';
+
+:root {
+  --color-dark: #171717;
+  --color-dark-secondary: #242424;
+
+  --color-light: #F5F3EF;
+  --color-muted: #D6D3CE;
+
+  --color-accent: #B94747;
+  --color-accent-dark: #8F3535;
+
+  --color-gold: #C8A96B;
+  --color-border: #4A4743;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#menu {
+  background-color: var(--color-dark);
+}
+
+#menu .navbar-brand { 
+  color: var(--color-light);
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+}
+
+#menu .nav-link {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-muted);
+  transition: color 0.2s ease;
+}
+
+#menu .nav-link:hover,
+#menu .nav-link:focus-visible {
+  color: var(--color-light);
+}
+
+#menu .nav-link:active {
+  color: var(--color-accent);
+}
+
+#menu .navbar-toggler {
+  border-color: var(--color-border);
+}
+
+#menu .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(185, 71, 71, 0.25);
+}
+
+#nav i {
+  color: #A3A3A3;
+}
+
+#eyebrow {
+  color: var(--color-gold);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+#logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+#landing{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.59)
+    ),
+    url("./images/schoolshooting.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing-content {
+  text-align: center;
+}
+
+
+
+#title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 72px;
+  letter-spacing: -2%;
+  vertical-align: bottom;
+  color: #FFFFFF;
+}
+
+#awareness-title {
+  font-family: Roboto;
+  font-style: SemiBold;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 72px;
+  letter-spacing: -2%;
+  vertical-align: bottom;
+  color: var(--color-light);
+}
+
+
+#title-description{ 
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--color-muted);
+}
+
+#base{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+
+
+  width: 180;
+  height: 48;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 8px;
+  border-radius: 999px;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  color: var(--color-light);
+
+  background: var(--color-accent);
+
+  text-decoration: NONE;
+
+  transition: background 0.2s ease;
+}
+
+#base:hover {
+  background: var(--color-accent-dark);
+}
+
+
+#projects, #tools {
+  background-color: #1E1E1D;
+}
+
+#projects h1 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f77d6b;
+}
+
+
+
+#web-tools {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #9E1FDB;
+}
+
+#languages {
+    font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #3399FF;
+}
+
+#contact_form{
+  background: #1E1E1D;
+}
+
+
+#contact_form h2{
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #FFFFFF;
+
+}
+
+#contact_form p{
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #A3A3A3;
+}
+
+#contact_form label{
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #A3A3A3;
+}
+
+#contact_form input,#contact_form textarea{
+  border-color: #B59066;
+}
+
+#contact_form button{
+  background: #A8A2A2;
+  color: white;
+
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+#contact_form input,#contact_form textarea{
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #765C3D;
+}
+
+#footer {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
+  background: #1E1E1D;
+}
+
+#footer div{
+  color: #FFF2E4;
+}
