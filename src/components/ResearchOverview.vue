@@ -13,8 +13,7 @@
                 	This project examines documented incidents of school violence in the Philippines, available research, contributing factors, and how these issues are discusssed in public
                 </p>
              </div>
-          </div>
-		</div>
+       
 
 		<div class="row g-4 mt-4">
 			<div class="col-md-4">
@@ -32,6 +31,16 @@
 		              </p>
 	             </article>
 			</div>
+
+			<div class="col-md-4">
+           <article class="research-card h-100">
+		              <h3>Evidence &amp; Context</h3>
+		              <p>Distinguish documented evidence from assumptions, speculation and unsupported claims.
+		              </p>
+	         </article>
+			</div>
 		</div>
-	</section>
+	</div>
+</div>
+</section>
 </template>
