@@ -10,7 +10,7 @@
                     <a href="#landing" class="nav-link" id="home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#research" class="nav-link" id="nav-research">Research</a>
+                    <a href="#research-overview" class="nav-link" id="nav-research">Research</a>
                 </li>
                 <li class="nav-item">
                     <a href="#incidents" class="nav-link" id="incidents">Incidents</a>

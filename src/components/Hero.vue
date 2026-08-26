@@ -12,7 +12,7 @@
                   can distinguish evidence from speculation
 				</p>
 
-				<a href="#research" id="base" class="d-inline-block mt-5">Explore the research</a>
+				<a href="#research-overview" id="base" class="d-inline-block mt-5">Explore the research</a>
 			</div>
 
 		</div>	

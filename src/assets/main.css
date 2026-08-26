@@ -169,80 +169,63 @@
 /* Hero section code ends here */
 
 /* Research Overview code starts here */
-#research {
-  background-color: var(--color-light);
-  color: var(--color-dark);
+#research-overview {
+   background: var(--color-light);
 }
 
-#research-eyebrow {
-  margin-bottom: 12px;
-
+#research-overview .eyebrow {
+  color: var(--color-gold);
   font-family: Roboto, sans-serif;
-  font-size: 16px;
   font-weight: 600;
-  letter-spacing: 0.08em;
-
-  color: var(--color-ascent);
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-#research-title {
-  margin-bottom: 20px;
-
+#research-overview h2 {
   font-family: Roboto, sans-serif;
+  font-weight: 600;
   font-size: 40px;
-  font-weight: 600;
-  line-height: 1.15;
-
   color: var(--color-dark);
 }
 
-#research-description {
-  margin: 0 auto;
-
+#research-overview .lead {
   font-family: Roboto, sans-serif;
-  font-size: 20px;
-  line-height: 1.6;
-
-  color: #55514C;
+  font-size: 18px;
+  color: #5A5A5A;
 }
 
-#research-card {
-  padding: 32px;
-
-  background-color: #FFFFFF;
-  border: 1px solid #DDD9D3;
+.overview-card {
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
-
-  transition: 
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.research-card:hover {
+.overview-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(23, 23, 23, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
-.research-card h3 {
-  margin-bottom: 16px;
 
-  font-family: Roboto, sans-serif;
+.overview-card .icon-wrap i {
   font-size: 24px;
-  font-weight: 600;
+  color: var(--color-accent);
+}
 
+.overview-card .card-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
   color: var(--color-dark);
 }
 
-
-.research-card p {
-  margin: 0;
-
+.overview-card .card-text {
   font-family: Roboto, sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
-
-  color: #55514C;
+  font-size: 15px;
+  color: #6B6B6B;
 }
+
 
 #projects, #tools {
   background-color: #1E1E1D;
