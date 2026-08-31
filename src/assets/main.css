@@ -117,7 +117,6 @@
   leading-trim: NONE;
   line-height: 72px;
   letter-spacing: -2%;
-  vertical-align: bottom;
   color: var(--color-light);
 }
 
@@ -227,132 +226,82 @@
 }
 
 
-#projects, #tools {
-  background-color: #1E1E1D;
+#incident-overview {
+   background: var(--color-light);
 }
 
-#projects h1 {
-  font-family: Roboto;
+#incident-overview .eyebrow {
+  color: var(--color-gold);
+  font-family: Roboto, sans-serif;
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 40px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #f77d6b;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.incident-card {
+  padding: 32px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDD9D3;
+  border-radius: 12px;
 }
 
 
+.incident-card_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
 
-#web-tools {
-  font-family: Roboto;
+.incident-card_date {
+  margin: 0;
+  font-size: 14px;
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 40px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: bottom;
-  color: #9E1FDB;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-#languages {
-    font-family: Roboto;
+.incident-card_status {
+  padding: 4px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--color-dark);
+}
+
+.incident-card_title {
+  margin-bottom: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 40px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: bottom;
-  color: #3399FF;
+  color: var(--color-dark);
 }
 
-#contact_form{
-  background: #1E1E1D;
+.incident-card_location,
+.incident-card_classification {
+  margin-bottom: 8px;
+  color: #5A5A5A;
 }
 
-
-#contact_form h2{
-  font-family: Roboto;
+.incident-card_classification {
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 40px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: bottom;
-  color: #FFFFFF;
-
 }
 
-#contact_form p{
-  font-family: Roboto;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 24px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #A3A3A3;
+.incident-card_content {
+  margin-top: 24px;
 }
 
-#contact_form label{
-  font-family: Roboto;
+.incident-card_content h4 {
+  margin-bottom: 8px;
+  font-size: 17px;
   font-weight: 600;
-  font-style: SemiBold;
-  font-size: 20px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: #A3A3A3;
+  color: var(--color-dark);
 }
 
-#contact_form input,#contact_form textarea{
-  border-color: #B59066;
-}
-
-#contact_form button{
-  background: #A8A2A2;
-  color: white;
-
-  font-family: Roboto;
-  font-weight: 600;
-  font-size: 20px;
-  leading-trim: NONE;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: center;
-}
-
-#contact_form input,#contact_form textarea{
-  font-family: Roboto;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 24px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  color: #765C3D;
-}
-
-#footer {
-  font-family: Roboto;
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 16px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-
-  background: #1E1E1D;
-}
-
-#footer div{
-  color: #FFF2E4;
+.incident-card_content p {
+  margin: 0;
+  line-height: 1.7;
+  color: #5A5A5A;
 }
