@@ -18,13 +18,19 @@
             </ul>
             <ul class="navbar-nav ps-0 me-auto text-center text-md-start">
                 <li class="nav-item">
-                    <a href="#safety-guides" class="nav-link" id="safe-guide">Safety Guides</a>
+                    <a href="#contributing-factors" class="nav-link" id="contributing-factors">Contributing Factors</a>
                 </li>
+                <li class="nav-item">
+                    <a href="#claims-myths" class="nav-link" id="claims-myths">Claims &amp; Myths</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#safety-guides" class="nav-link" id="safe-guide">Safety Guides</a>
+                </li>>
                 <li class="nav-item">
                     <a href="#resources" class="nav-link" id="resources">Resources</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link" id="cntct">About</a>
+                    <a href="#about" class="nav-link" id="about">About</a>
                 </li>
             </ul>
         </div>

@@ -125,7 +125,7 @@
  		classification: "School shooting - one student fatality",
  		status: "Extensively documented",
  		description: "On August 18, 2026, a Grade 9 student entered the Ateneo de Zamboanga school campus with firearms and opened fire, killing a Grade 10 student before dying by suicide.",
- 		context: "The incident occured less than two months after the Tacloban shooting and led to another national discussion about school security and the access of students to firearms",
+ 		context: "The incident occured less than two months after the Tacloban shooting and led to another national discussion about school security and the access of students to firearms.",
  	}
  ];
 </script>
