@@ -1,5 +1,9 @@
 @import './base.css';
 
+html, body {
+  overflow-x: hidden;
+}
+
 :root {
   --color-dark: #171717;
   --color-dark-secondary: #242424;

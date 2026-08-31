@@ -6,7 +6,7 @@
 			This project examines documented incidents of school violence in the Philippines, available research, contributing factors and how these issues are discussed in public.
 		</p>
 
-	<div class="row justify-content-center g-4 px-4">
+	<div class="row justify-content-center g-4">
 		<OverviewCard 
 		   v-for="card in cards"
 		   :key="card.title"
