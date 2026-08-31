@@ -88,16 +88,6 @@
  	},
  	{
  		id: 6,
- 		date: "August 7, 2025",
- 		title: "The Santa Rosa School Shooting",
- 		location: "Santa Rosa Integrated School, Santa Rosa, Nueva Ecija",
- 		classification: "School shooting - targeted attack",
- 		status: "Multiple contemporary reports",
- 		description: "An 18-year-old former student entered Santa Rosa Integrated School and shot a 15-year-old student inside her classroom. He then turned the firearm on himself. Both were hospitalized, but the suspect died the following day and the student died five days after the shooting.",
- 		context: "The incident drew attention to school security and the safety of students outside major urban centers. Authorities also investigated how the firearm was obtained and provided crisis intervention and psychosocial support and school personnel.",
- 	},
- 	{
- 		id: 7,
  		date: "August 4, 2025",
  		title: "The Lanao Del Sur School Shooting",
  		location: "Lanao del Sur",
@@ -105,6 +95,16 @@
  		status: "Multiple contemporary reports",
  		description: "A Grade 11 student shot and killed his teacher inside a school in Lanao del Sur following a dispute over a failing grade.",
  		context: "The incident was treated as a targeted attack against the teacher. Authorities investigated the circumstances surrounding the shooting and the student's access to the firearm",
+ 	},
+ 	{
+ 		id: 7,
+ 		date: "August 7, 2025",
+ 		title: "The Santa Rosa School Shooting",
+ 		location: "Santa Rosa Integrated School, Santa Rosa, Nueva Ecija",
+ 		classification: "School shooting - targeted attack",
+ 		status: "Multiple contemporary reports",
+ 		description: "An 18-year-old former student entered Santa Rosa Integrated School and shot a 15-year-old student inside her classroom. He then turned the firearm on himself. Both were hospitalized, but the suspect died the following day and the student died five days after the shooting.",
+ 		context: "The incident drew attention to school security and the safety of students outside major urban centers. Authorities also investigated how the firearm was obtained and provided crisis intervention and psychosocial support and school personnel.",
  	},
  	{
  		id: 8,
