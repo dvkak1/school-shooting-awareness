@@ -114,7 +114,7 @@
  		classification: "Mass school shooting - three fatalities",
  		status: "Extensively documented",
  		description: "On June 22, 2026, a shooting inside San Jose National High School left three students dead and many others injured. Two minor suspects were later taken into custody.",
- 		context: "Police later said the attack had allegedly been planned for more than am onth, The incident prompted heightened security measures in Tacloban schools and a broader investigation into school safety."
+ 		context: "Police later said the attack had allegedly been planned for more than a month, The incident prompted heightened security measures in Tacloban schools and a broader investigation into school safety."
 
  	},
  	{
