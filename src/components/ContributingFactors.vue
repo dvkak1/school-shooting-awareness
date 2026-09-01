@@ -2,7 +2,7 @@
 	<section class="py-5" id="contributing-factors">
 		<p class="eyebrow text-center">CONTRIBUTING FACTORS</p>
 
-		<h2 class="text-center mb-3">Looking Beyond a Singular Cause</h2>
+		<h2 class="text-center mb-3">Looking Beyond a Single Cause</h2>
 
 		<p class="lead text-center mx-auto mb-5" style="max-width: 800px;">
 			To understand why school violence occurs, it is important to
@@ -17,5 +17,6 @@
 			understand the complexity of the issue and form their own informed 
 			opinions.
 		</p>
+	</section>
 
 </template>

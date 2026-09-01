@@ -3,6 +3,7 @@
   import Hero from "./components/Hero.vue";
   import Research from "./components/ResearchOverview.vue";
   import Incident from "./components/Incidents.vue";
+  import Factor from "./components/ContributingFactors.vue";
   import 'bootstrap-icons/font/bootstrap-icons.css';
 </script>
 
@@ -13,5 +14,7 @@
     <Hero />
     <Research />
     <Incident />
+    <Factor />
   </main>
+
 </template>
