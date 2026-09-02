@@ -267,6 +267,8 @@ html, body {
 }
 
 
+/*Incident section styling starts here*/
+
 #incident-overview {
    background: var(--color-light);
 }
@@ -346,3 +348,69 @@ html, body {
   line-height: 1.7;
   color: #5A5A5A;
 }
+
+/*Incident section styling code ends here*/
+
+#contributing-factors {
+  background-color: var(--color-light);
+}
+
+.factor-card {
+  padding: 32px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDD9D3;
+  border-radius: 12px;
+  text-align: center;
+
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.factor-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 10px 24px rgba(23, 23, 23, 0.08);
+}
+
+.factor-card_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+  background-color: rgba(185, 71, 71, 0.1);
+
+}
+
+.factor-card_icon i {
+  font-size: 24px;
+  color: var(--color-accent);
+}
+
+.factor-card_title {
+  margin-bottom: 12px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+
+  color: var(--color-dark);
+}
+
+.factor-card_description {
+  margin: 0;
+
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+
+  color: #5A5A5A;
+}
+
